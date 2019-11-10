@@ -3,6 +3,6 @@ export function MainMenu() {
   navigation.setAttribute("class", "main-menu");
   document.getElementById("editor").appendChild(navigation);
   var navigationContent = document.createElement("ul");
-  navigationContent.setAttribute("class", "main-menu nav");
+  navigationContent.setAttribute("class", "main-menu navigation");
   navigation.appendChild(navigationContent);
 }
